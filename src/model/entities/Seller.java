@@ -41,6 +41,14 @@ public class Seller implements Serializable {
         this.name = name;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public Date getBirthDate() {
         return birthDate;
     }
