@@ -14,6 +14,7 @@ public class DB {
 	private static Connection conn = null;
 	
 	public static Connection getConnection() {
+		System.out.println(".");
 		if (conn == null) {
 			try {
 				Properties props = loadProperties();
